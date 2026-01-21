@@ -67,4 +67,3 @@ print(a)
 dog = DOG = Dog = dOg = "Beagle"
 print(dog, DOG, Dog, dOg)
 
-
