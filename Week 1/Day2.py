@@ -118,3 +118,7 @@ print(f"Hello {name}!")
 
 favColor = input(f"What is your favorite color, {name}?")
 print(f"I like {favColor} too!")
+
+message_string = ''' This is a mulit-line string!
+can you believe it?'''
+print(message_string)
