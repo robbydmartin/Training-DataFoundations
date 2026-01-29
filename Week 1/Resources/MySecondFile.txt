@@ -1,0 +1,4 @@
+Apple - red
+Banana - yellow
+Cherry - red
+Blueberry - blue

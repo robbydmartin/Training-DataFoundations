@@ -9,7 +9,7 @@ List is a collection that is ordered and changable
 # Lists use square[] brackets and can contain different data types
 # Python sees lists as objects with the datatype as 'list'
 fruits = ["Orange", "Strawberry", "Apple"]
-fruityFruits = favoriteFruits = ["Watermelon", "Blueberrie", "Banana"]
+fruityFruits = favoriteFruits = ["Watermelon", "Blueberries", "Banana"]
 Or, St, Ap = fruits # Can associate a list with individual variables.
 print(Or)
 print(St)

@@ -71,7 +71,7 @@ if a > 5:
         print("but not more than 10")
 
 # Match-case (known as switch statements in other languages)
-choice = input("select a number betwee 1 and 3: ")
+choice = input("select a number between 1 and 3: ")
 match choice:
     case "1":
         print("you chose case number 1")
