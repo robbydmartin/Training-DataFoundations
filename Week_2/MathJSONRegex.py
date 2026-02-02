@@ -68,7 +68,8 @@ if match:
 
 # we can use the findall(pattern, text) function to find all occurences of a pattern in a string
 matches = re.findall("cat", text)
-print("All occurences of 'cat'", matches)
+print("All occurences of 'cat'", matches, len(matches))
+
 
 # regex metacharacters can help us perform more complex searches
 #   AKA wildcards
@@ -94,3 +95,16 @@ print(split_text)
 replaced_text = re.sub(r"cat", "dog", text)
 print(replaced_text)
 
+some_str = "Here is a string re"
+another_str = some_str[::-1]
+
+new_str = "-".join([word.capitalize() for word in some_str.split()])
+print(another_str)
+print(new_str)
+print(some_str.capitalize())
+
+find_is = re.search("is", some_str)
+print(find_is.group())
+
+find_e = re.findall(r'(re)', some_str)
+print(find_e)

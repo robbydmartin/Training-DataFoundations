@@ -44,7 +44,7 @@ print('\nSorted by Age:\n', sorted_df)
 ##################################################################
 
 # Now Accessing data from CSV
-vehicle_df = pd.read_csv('./data/Electric_Vehicle_Population_Data.csv')
+vehicle_df = pd.read_csv('./Week_2/data/Electric_Vehicle_Population_Data.csv')
 # print('\nVehicle DataFrame:\n', vehicle_df.head())
 print('\nVehicle DataFrame:\n', vehicle_df.info()) # will give summary of our data frame
 
@@ -90,4 +90,4 @@ non_tesla_vehicles['Model Year'].value_counts().sort_index().plot(kind='bar', ax
 plt.show()
 
 # Finally, we can export our modified DataFrame to a new CSV file
-non_tesla_vehicles.to_csv('./data/modified_vehicle_data.csv', index=False)
+non_tesla_vehicles.to_csv('./Week_2/data/modified_vehicle_data.csv', index=False)
