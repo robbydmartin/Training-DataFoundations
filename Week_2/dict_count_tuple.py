@@ -67,3 +67,16 @@ print(count)
 # We can also specify what we want to count
 print(count["fruit"])
 
+K =2
+word_lst = ['banana', 'apple', 'banana', 'orange', 'apple', 'apple']
+
+word_dict = OrderedDict()
+
+for word in word_lst:
+    word_dict[word] = word_lst.count(word)
+
+for key, value in word_dict.items():
+    print(key)
+    K -= 1
+    if K == 0:
+        break
