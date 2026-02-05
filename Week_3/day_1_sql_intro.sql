@@ -30,6 +30,7 @@ CREATE TABLE enrollment (
 	grade CHAR(2)
 );
 
+
 -- DML to work with data inside the tables
 INSERT INTO student (first_name, last_name, email, phone) 
 VALUES ('Mary', 'Dolittle', 'marydo@email.com', 2223333),
@@ -38,16 +39,21 @@ VALUES ('Mary', 'Dolittle', 'marydo@email.com', 2223333),
 	('Tony', 'Stark', 'ironman@email.com', 7537894);
 
 INSERT INTO instructor (first_name, last_name, degree)
-VALUES ('Cave', 'Johnson', 'MS'),
+VALUES ('Sarah', 'Dolette', 'CS'),
+	('Cave', 'Johnson', 'MS'),
 	('John', 'Doe', 'BB'),
 	('Amanda', 'Dixie', 'ME');
 
 INSERT INTO course (course_name, credits, instructor_id)
-VALUES ('Biology', 4, 2),
+VALUES ('Algebra', 3, 3),
+	('International Foods', 2, 4),
+	('Biology', 4, 2),
 	('Database Systems', 3, 1);
 
 INSERT INTO enrollment (student_id, course_id, grade) 
-VALUES (1, 1, 'A-'),
+VALUES (2, 3, 'A'),
+	(3, 1, 'C'),
+	(1, 1, 'A-'),
 	(1, 2, 'B'),
 	(2, 1, 'C');
 

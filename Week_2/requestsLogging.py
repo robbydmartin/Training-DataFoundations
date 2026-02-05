@@ -15,6 +15,12 @@ logging.basicConfig(
     ]
 )
 
+logging.debug('Hello, Debug!')
+logging.info('Hello, Info!')
+logging.warning('Hello, Warning!')
+logging.error('Hello, Error!')
+logging.critical('Hello, Critical!')
+
 logger = logging.getLogger(__name__)
 
 # query = input(f"Enter a Pokemon name or pokedex # to fetch its data: ")
